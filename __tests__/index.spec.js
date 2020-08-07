@@ -18,13 +18,14 @@
     test('gitlab url: git@git.saybot.net:aric.zheng/dingtalk-assistant.git', function () {
       var url = 'git@git.saybot.net:aric.zheng/dingtalk-assistant.git';
       var gitUrl = new NxGitUrl(url);
-      var { github, pages, url, ssh, https } = gitUrl;
+      var { github, pages, url, ssh, https, mr } = gitUrl;
 
       expect(github).toBe(false);
       expect(pages).toBe('https://aric.zheng.pages.saybot.net/dingtalk-assistant/');
       expect(ssh).toBe('git@github.com:aric.zheng/dingtalk-assistant.git');
       expect(https).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant.git');
       expect(url).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant');
-    })
+      expect(url).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant/-/merge_requests');
+    });
   });
 })();

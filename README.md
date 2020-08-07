@@ -12,13 +12,14 @@ npm install -S @feizheng/next-git-url
 ```
 
 ## apis
-| property | description            |
-| -------- | ---------------------- |
-| github   | Check if is github.    |
-| pages    | Gh_pages.              |
-| url      | Git url in its source. |
-| ssh      | `ssh` git url.         |
-| https    | `https` git url.       |
+| property | description                                 |
+| -------- | ------------------------------------------- |
+| github   | Check if is github.                         |
+| pages    | Gh_pages.                                   |
+| url      | Git url in its source.                      |
+| ssh      | `ssh` git url.                              |
+| https    | `https` git url.                            |
+| mr       | Get merge request url(only support gitlab). |
 
 ## usage
 ```js

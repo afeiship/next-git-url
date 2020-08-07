@@ -29,6 +29,10 @@
         var lab = 'https://{organization}.pages.{source}/{name}/';
         var tmpl = this.github ? hub : lab;
         return nxTmpl(tmpl, this.data);
+      },
+      mr: function () {
+        var tmpl = this.github ? '' : 'https://{resource}/{full_name}/-/merge_requests';
+        return nxTmpl(tmpl, this.data);
       }
     },
     methods: {
