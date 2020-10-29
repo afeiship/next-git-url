@@ -14,6 +14,12 @@
         var tmpl = 'git@github.com:{organization}/{name}.git';
         return nxTmpl(tmpl, this.data);
       },
+      actions: function () {
+        var hub = 'https://github.com/{organization}/{source}/actions';
+        var lab = 'https://git.{source}/{organization}/{name}/-/pipelines';
+        var tmpl = this.github ? hub : lab;
+        return nxTmpl(tmpl, this.data);
+      },
       https: function () {
         var hub = 'https://{source}/{organization}/{name}.git';
         var lab = 'https://git.{source}/{organization}/{name}.git';
