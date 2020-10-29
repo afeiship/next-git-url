@@ -2,8 +2,8 @@
  * name: @feizheng/next-git-url
  * description: Get git urls.
  * homepage: https://github.com/afeiship/next-git-url
- * version: 1.0.2
- * date: 2020-10-29T02:37:55.987Z
+ * version: 1.0.3
+ * date: 2020-10-29T02:42:05.064Z
  * license: MIT
  */
 
@@ -24,7 +24,7 @@
         return nxTmpl(tmpl, this.data);
       },
       actions: function () {
-        var hub = 'https://github.com/{organization}/{source}/actions';
+        var hub = 'https://github.com/{organization}/{name}/actions';
         var lab = 'https://git.{source}/{organization}/{name}/-/pipelines';
         var tmpl = this.github ? hub : lab;
         return nxTmpl(tmpl, this.data);

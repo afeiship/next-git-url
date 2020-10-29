@@ -15,7 +15,7 @@
         return nxTmpl(tmpl, this.data);
       },
       actions: function () {
-        var hub = 'https://github.com/{organization}/{source}/actions';
+        var hub = 'https://github.com/{organization}/{name}/actions';
         var lab = 'https://git.{source}/{organization}/{name}/-/pipelines';
         var tmpl = this.github ? hub : lab;
         return nxTmpl(tmpl, this.data);
