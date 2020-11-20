@@ -24,7 +24,7 @@
       expect(ssh).toBe('git@github.com:aric.zheng/dingtalk-assistant.git');
       expect(https).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant.git');
       expect(url).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant');
-      expect(url).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant/-/merge_requests');
+      expect(mr).toBe('https://git.saybot.net/aric.zheng/dingtalk-assistant/-/merge_requests');
     });
   });
 })();
