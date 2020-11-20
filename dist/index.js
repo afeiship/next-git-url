@@ -1,7 +1,16 @@
-(function () {
+/*!
+ * name: @jswork/next-git-url
+ * description: Get git urls.
+ * homepage: https://github.com/afeiship/next-git-url
+ * version: 1.0.0
+ * date: 2020-11-20 10:44:19
+ * license: MIT
+ */
+
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxTmpl = nx.tmpl || require('@feizheng/next-tmpl');
+  var nx = global.nx || require('@jswork/next');
+  var nxTmpl = nx.tmpl || require('@jswork/next-tmpl');
   var urlParse = require('git-url-parse');
   var IS_GITHUB = 'github.com';
 

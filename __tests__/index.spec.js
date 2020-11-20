@@ -1,6 +1,5 @@
 (function () {
-  var nx = require('@feizheng/next-js-core2');
-  var NxGitUrl = require('../src/next-git-url');
+  const NxGitUrl = require('../src');
 
   describe('NxGitUrl.methods', function () {
     test('github url: git@github.com:afeiship/next-git-url.git', function () {

@@ -8,7 +8,7 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-git-url
+npm install -S @jswork/next-git-url
 ```
 
 ## apis
@@ -39,14 +39,14 @@ const { github, pages, url, ssh, https } = gitUrl;
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-git-url/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-git-url
-[version-url]: https://npmjs.org/package/@feizheng/next-git-url
+[version-image]: https://img.shields.io/npm/v/@jswork/next-git-url
+[version-url]: https://npmjs.org/package/@jswork/next-git-url
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-git-url
+[license-image]: https://img.shields.io/npm/l/@jswork/next-git-url
 [license-url]: https://github.com/afeiship/next-git-url/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-git-url
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-git-url
 [size-url]: https://github.com/afeiship/next-git-url/blob/master/dist/next-git-url.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-git-url
-[download-url]: https://www.npmjs.com/package/@feizheng/next-git-url
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-git-url
+[download-url]: https://www.npmjs.com/package/@jswork/next-git-url
