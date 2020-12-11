@@ -3,7 +3,7 @@
  * description: Get git urls.
  * homepage: https://github.com/afeiship/next-git-url
  * version: 1.0.0
- * date: 2020-11-20 10:47:08
+ * date: 2020-12-11 13:27:39
  * license: MIT
  */
 

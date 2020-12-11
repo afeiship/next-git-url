@@ -17,7 +17,6 @@
   "devDependencies": {
     "@jswork/gulp-pkg-header": "^1.0.2",
     "@jswork/next": "^1.0.2",
-    "@jswork/next-tmpl": "^1.0.0",
     "del": "^6.0.0",
     "git-url-parse": "^11.4.0",
     "gulp": "^4.0.2",
@@ -44,5 +43,8 @@
     "http",
     "ssh",
     "pages"
-  ]
+  ],
+  "dependencies": {
+    "@jswork/next-tmpl": "^1.0.0"
+  }
 }
