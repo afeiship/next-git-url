@@ -2,8 +2,8 @@
  * name: @jswork/next-git-url
  * description: Get git urls.
  * homepage: https://github.com/afeiship/next-git-url
- * version: 1.0.1
- * date: 2020-12-11 13:28:21
+ * version: 1.0.2
+ * date: 2021-01-09 16:59:19
  * license: MIT
  */
 
