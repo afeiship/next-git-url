@@ -1,3 +1,12 @@
+/*!
+ * name: @jswork/next-git-url
+ * description: Get git urls.
+ * homepage: https://github.com/afeiship/next-git-url
+ * version: 1.0.2
+ * date: 2021-10-26 11:22:24
+ * license: MIT
+ */
+
 (function() {
   var global = typeof window !== 'undefined' ? window : this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
