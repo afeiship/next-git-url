@@ -16,9 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@jswork/gulp-pkg-header": "^1.0.2",
-    "@jswork/next": "^1.0.2",
     "del": "^6.0.0",
-    "git-url-parse": "^11.4.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
@@ -45,6 +43,8 @@
     "pages"
   ],
   "dependencies": {
-    "@jswork/next-tmpl": "^1.0.0"
+    "@jswork/next": "^1.0.9",
+    "@jswork/next-tmpl": "^1.0.0",
+    "git-url-parse": "^11.4.0"
   }
 }
