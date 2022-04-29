@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-git-url",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Get git urls.",
   "homepage": "https://github.com/afeiship/next-git-url",
   "author": {
