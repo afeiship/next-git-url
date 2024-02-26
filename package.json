@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Get git urls.",
   "homepage": "https://js.work",
+  "files": ["dist"],
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
