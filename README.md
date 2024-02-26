@@ -23,10 +23,10 @@ npm install -S @jswork/next-git-url
 
 ## usage
 ```js
-import NxGitUrl from '@jswork/next-git-url';
+import '@jswork/next-git-url';
 
 const url = 'git@github.com:afeiship/next-git-url.git';
-const gitUrl = new NxGitUrl(url);
+const gitUrl = new nx.GitUrl(url);
 const { github, pages, url, ssh, https } = gitUrl;
 
 // true
